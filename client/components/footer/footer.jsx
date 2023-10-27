@@ -5,7 +5,7 @@ const Footer = () => {
     <div className={styles.master}>
       <footer className={styles.footer}>feito com 💖 por murilo</footer>
       <div className={styles.img}>
-        <img src="../src/assets/osso.svg" alt="" />
+        <img src="" alt="" />
       </div>
     </div>
   );
