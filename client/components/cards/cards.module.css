@@ -1,0 +1,48 @@
+.card {
+    width: 300px; /* Largura do card */
+    height: 350px;
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin: 20px; /* Espaçamento entre cards */
+
+}
+.card img {
+    width: 100%; /* A imagem se ajusta ao tamanho do card */
+    border-top-left-radius: 8px; /* Cantos arredondados para a imagem */
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.card-content {
+    padding: 10px; /* Espaçamento interno */
+}
+
+.card-content h2 {
+    font-size: 1.5em; /* Tamanho do título */
+}
+
+.card-content p {
+    font-size: 1em; /* Tamanho do texto */
+}
+
+.card-content a {
+    display: block; /* Torna o botão um bloco para ocupar toda a largura */
+    text-align: center; /* Centraliza o botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 8px 0; /* Espaçamento interno no botão */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 4px; /* Cantos arredondados do botão */
+}
+
+.card-content a:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+
+
+
+
+

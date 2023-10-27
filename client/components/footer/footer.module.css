@@ -1,0 +1,32 @@
+.master {
+  position: relative;
+}
+.footer {
+  height: 60px;
+  padding: 0;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ffa33c;
+  margin-top: 30em;
+  z-index: 1;
+  /* position:relative; */
+}
+.img {
+  position: absolute;
+  display: flex;
+  padding: 0;
+  bottom: 0;
+  margin-bottom: -150px;
+  z-index: -1;
+  margin-left: 50px;
+}
+/* .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffa33c; /* Cor de fundo do rodapé */
+/* color: #fff; /* Cor do texto no rodapé */
+/* padding: 10px; /* Espaçamento interno para melhor aparência */
+/* text-align: center; /* Centralize o conteúdo do rodapé */
+/* margin-top: 25px; */
+/* }  */
